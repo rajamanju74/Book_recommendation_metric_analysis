@@ -1,0 +1,20 @@
+What can you see here ??
+
+Dataset is preprocessed.
+Item based prediction with cosine similarity and euclidean distance as metric.
+User based prediction with cosine similarity and euclidean distance as metric.
+
+
+
+Sparsity 
+The Book crossing dataset is very sparse that it has many null values when we consider for the predictions.
+We have reduced the size of the matrix so to reduce the sparsity. But there are other pre processing steps available to reduce the sparcity which people can use.
+
+ANALYSIS
+---- Item based gave good results than the user based system.
+---- Euclidean Distance is better for this than cosine similarity
+
+
+Accuracy in which terms?
+Simply took an user and predicted the ratings using the model.
+Compared it with the actual values.
